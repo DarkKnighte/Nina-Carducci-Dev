@@ -119,6 +119,8 @@
         .attr("src", element.attr("src"));
       $(`#${lightboxId}`).modal("toggle");
     },
+    // @TODO : Corriger le problème de navigation.
+    // @TODO : Corriger le filtrage par catégorie.
     prevImage() {
       let activeImage = null;
       $("img.gallery-item").each(function() {
