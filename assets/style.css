@@ -2,19 +2,21 @@ body {
 	max-width: 1920px;
 	margin: auto;
 }
+
 * {
 	font-family: 'Inter';
-	font-style: normal;
+	font-style: normal;/* modifier ??*/
 }
+
 .top-header {
 	background-color: white;
-	position: sticky;
-	top:0;
-	z-index: 1000;
+	position: sticky;/* modifier ??*/
+	top:0;/* modifier ??*/
+	z-index: 1000;/* modifier ??*/
 	display: flex;
 	justify-content: space-between;
-	padding-inline: 100px;
-	padding-block: 30px;
+	padding-inline: 100px;/* modifier ??*/
+	padding-block: 30px;/* modifier ??*/
 	align-items: center;
 }
 
@@ -30,7 +32,7 @@ body {
 }
 
 .nav li {
-	padding-inline: 10px;
+	padding-inline: 10px; /* modifier ??*/
 }
 
 .nav a {
@@ -45,87 +47,94 @@ body {
 #about {
 	display: flex;
 	background-color: #F6D2B8;
-	padding-inline: 100px;
-	padding-block: 100px;
+	padding-inline: 100px;/* modifier ??*/
+	padding-block: 100px;/* modifier ??*/
 	position: relative;
 }
 
 .picture.left::before {
-	content: ' ';
+	content: ' ';/* modifier ??*/
 	background-color: #E5975F;
 	width: 374px;
 	height: 329px;
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	z-index: -1;
+	position: absolute;/* modifier ??*/
+	bottom: 0;/* modifier ??*/
+	left: 0;/* modifier ??*/
+	z-index: -1;/* modifier ??*/
 }
 
 .picture {
 	flex: 1;
 	margin: 0 20px;
-	z-index: 0;
+	z-index: 0;/* modifier ??*/
 }
 
 .picture img {
 	width: 100%;
 
 }
+
 #about-me {
 	flex: 2
 }
+
 .about-me__title {
 	margin-top: 1em;
 	margin-bottom: 60px;
 	font-size: 30px;
 }
+
 .about-me__introduction {
 	font-family: 'Spectral';
 	font-weight: 800;
-	font-style: italic;
+	font-style: italic;/* modifier ??*/
 	width: 60%;
 }
+
 #about-me p {
 	width: 80%;
 	font-size: 14px;
 }
 
-#gallery {
+#gallery {/* modifier ??*/
 	/*	min-height: 100vh; */
 }
+
 .title{
 	text-align: center;
 	padding-block: 2em;
 }
+
 .gallery .nav {
 	justify-content: center;
 }
+
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
 	color: #fff;
 	background-color: #BEB45A;
-	border-radius:0 ;
+	border-radius:0 ;/* modifier ??*/
 }
-.nav-pills .nav-link {
-	color: #000
-}
+
 .item-column {
 	position: relative;
-	margin-bottom: 0 !important;
-	padding: 0;
+	margin-bottom: 0 !important;/* modifier ??*/
+	padding: 0;/* modifier ??*/
 }
+
 .item-column::after{
-	content: "";
+	content: "";/* modifier ??*/
 	display: block;
 	padding-bottom: 100%;
-
 }
+
 .gallery-item {
 	position: absolute;
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
-	padding: .5em;
+	padding: 0.5em;/* modifier ??*/
 }
+
 .mg-prev, .mg-next {
 	width: 30px;
 	height: 30px;
@@ -141,41 +150,42 @@ body {
 	font-style: italic;
 	width: 70%;
 	margin: auto;
-	padding-block: 3em;
+	padding-block: 3em;/* modifier ??*/
 }
+
 .quote__text {
-	font-family: Spectral;
+	font-family: 'Spectral';
 	font-style: italic;
 	font-weight: 300;
-
 }
+
 .quote__author {
-	font-family: Spectral;
+	font-family: 'Spectral';
 	font-weight: 800;
 	font-size: 22px;
 }
 
 #services {
 	margin: auto;
-	background-color: #A8D5D8 ;
+	background-color: #A8D5D8;
 	position: relative;
 }
+
 #services .container::before{
-	content: ' ';
+	content: ' ';/* modifier ??*/
 	background-color: #1C6474;
 	position: absolute;
 	width: 100%;
 	height: 30%;
-	bottom: 0;
-	left: 0;
-	z-index: 0;
+	bottom: 0;/* modifier ??*/
+	left: 0;/* modifier ??*/
+	z-index: 0;/* modifier ??*/
 }
 
 #services .container {
 	justify-content: space-between;
 	display: flex;
-	padding : 2em 0;
-
+	padding : 2em 0;/* modifier ??*/
 }
 
 .service {
@@ -187,34 +197,36 @@ body {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	z-index: 1;
+	z-index: 1;/* modifier ??*/
 }
 
 #contact {
 	margin: auto;
 	background-color: #D8D3A8 ;
 	position: relative;
-	padding-inline: 100px;
-	padding-block: 100px;
+	padding-inline: 100px;/* modifier ??*/
+	padding-block: 100px;/* modifier ??*/
 }
 
 #contact .container {
 	display: flex;
 }
+
 .picture.right::before {
-	content: ' ';
+	content: ' ';/* modifier ??*/
 	background-color: #BEB45A;
 	width: 374px;
 	height: 329px;
-	position: absolute;
-	bottom: 0;
-	right: 0;
-	z-index: -1;
+	position: absolute;/* modifier ??*/
+	bottom: 0;/* modifier ??*/
+	right: 0;/* modifier ??*/
+	z-index: -1;/* modifier ??*/
 }
+
 .form-container {
 	flex : 2;
-
 }
+
 form {
 	display: flex;
 	flex-direction: column;
@@ -239,9 +251,10 @@ form textarea {
 	font-size: 1.2em;
 	margin-bottom: 20px;
 }
+
 input[type="submit"] {
 	background-color: #BEB45A;
-	padding: .5em 1em
+	padding: 0.5em 1em;
 }
 
 @media all and (max-width: 1180px) {
@@ -251,10 +264,12 @@ input[type="submit"] {
 	#about, #contact .container {
 		align-items: center;
 	}
+
 	.about-me__title {
 		margin-top: 0;
 		margin-bottom: 1em;
 	}
+
 	#about-me h6, #about-me p {
 		width: 100%;
 	}
@@ -263,33 +278,38 @@ input[type="submit"] {
 @media all and (max-width: 1000px) {
 	#about{
 		flex-direction: column;
-
 	}
+
 	.picture {
 		width: 50%;
 	}
+
 	.picture.left::before {
 		width: 100%;
 		height: 30%;
-		position: absolute;
-		bottom: auto;
-		top: 0;
-		left: 0;
-		z-index: -1;
+		position: absolute;/* modifier ??*/
+		bottom: auto;/* modifier ??*/
+		top: 0;/* modifier ??*/
+		left: 0;/* modifier ??*/
+		z-index: -1;/* modifier ??*/
 	}
+
 	.about-me__title{
 		text-align: center;
 		margin-top: 1em;
 	}
+
 	#services .container {
 		flex-direction: column;
 	}
+
 	.service {
 		width: 100%;
 		max-width: 100%;
 		height: auto;
-		margin: 2em 0
+		margin: 2em 0;/* modifier ??*/
 	}
+
 	.service__description{
 		margin-bottom: 1em;
 	}
@@ -297,60 +317,69 @@ input[type="submit"] {
 	#services .container::before{
 		width: 30%;
 		height: 100%;
-		bottom: 0;
-		right: 0;
-		left: auto;
-		z-index: 0;
+		bottom: 0;/* modifier ??*/
+		right: 0;/* modifier ??*/
+		left: auto;/* modifier ??*/
+		z-index: 0;/* modifier ??*/
 	}
 
 	#contact .container {
 		flex-direction: column;
 	}
+
 	#contact .picture.right {
 		margin-top: 1em;
 	}
+
 	.picture.right::before {
 		width: 100%;
 		height: 30%;
-		position: absolute;
-		bottom: 0;
-		right: 0;
-		z-index: -1;
+		position: absolute;/* modifier ??*/
+		bottom: 0;/* modifier ??*/
+		right: 0;/* modifier ??*/
+		z-index: -1;/* modifier ??*/
 	}
 }
 
 @media all and (max-width: 650px) {
 	.top-header {
 		flex-direction: column;
-		padding-inline: 0;
+		padding-inline: 0;/* modifier ??*/
 	}
+
 	.top-header .nav, .top-header .nav ul {
 		width: 100%;
-		padding: 0 0 0 0;
+		padding: 0 0 0 0;/* modifier ??*/
 	}
+
 	.top-header .nav li {
 		flex: 1;
 		padding-block: 1em;
 		text-align: center;
 	}
+
 	.picture.left::before, .picture.right::before {
 		height: 150px;
 	}
+
 	#services .container {
 		align-items: center;
 	}
+
 	.service {
 		max-width: 90%;
 	}
+
 	#about, #contact {
-		padding-inline: 2em;
-		padding-block: 2em;
+		padding-inline: 2em;/* modifier ??*/
+		padding-block: 2em;/* modifier ??*/
 	}
+
 	form {
 		width: 100%;
 	}
+
 	.picture {
 		width: 80%;
 	}
 }
-
