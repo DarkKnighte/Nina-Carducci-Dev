@@ -241,8 +241,8 @@
         return;
       }
       $(".active-tag").removeClass("active active-tag");
-      // @TODO: Corriger le problème d'affichage de la categorie active en ajoutant une classe "active".
-      $(this).addClass("active-tag");
+      // @TODO: Corriger le problème d'affichage de la categorie active en ajoutant une classe "active".✔️​
+      $(this).addClass("active-tag active");
 
       var tag = $(this).data("images-toggle");
 
