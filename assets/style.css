@@ -383,3 +383,12 @@ input[type="submit"] {
 		width: 80%;
 	}
 }
+
+/* @TODO: Minify the CSS. */
+.visually-hidden {
+	color: #000;
+}
+
+.quote__text {
+	/* @TODO: Adjust the font. */
+}
