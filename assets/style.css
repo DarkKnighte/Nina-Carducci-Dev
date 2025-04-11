@@ -37,7 +37,7 @@ body {
 
 .nav a {
 	text-decoration: none;
-	color: #000
+	color: #000000;
 }
 
 .social-link img {
@@ -74,7 +74,7 @@ body {
 }
 
 #about-me {
-	flex: 2
+	flex: 2;
 }
 
 .about-me__title {
@@ -197,7 +197,7 @@ body {
 
 #contact {
 	margin: auto;
-	background-color: #D8D3A8 ;
+	background-color: #D8D3A8;
 	position: relative;
 	padding-inline: 100px;
 	padding-block: 100px;
@@ -381,7 +381,7 @@ input[type="submit"] {
 
 /* @TODO: Minify the CSS. */
 .visually-hidden {
-	color: #000;
+	color: #000000;
 }
 
 .quote__text {
