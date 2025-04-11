@@ -71,7 +71,6 @@ body {
 
 .picture img {
 	width: 100%;
-
 }
 
 #about-me {
@@ -96,10 +95,6 @@ body {
 	font-size: 14px;
 }
 
-#gallery {
-	/*	min-height: 100vh; */
-}
-
 .title{
 	text-align: center;
 	padding-block: 2em;
@@ -110,7 +105,7 @@ body {
 }
 
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-	color: #fff;
+	color: #1A1A1A;
 	background-color: #BEB45A;
 	border-radius:0 ;
 }
@@ -138,7 +133,7 @@ body {
 .mg-prev, .mg-next {
 	width: 30px;
 	height: 30px;
-	border-radius: 00%;
+	border-radius: 0%;
 	justify-content: center;
 	align-items: center;
 	display: flex;
@@ -390,5 +385,6 @@ input[type="submit"] {
 }
 
 .quote__text {
-	/* @TODO: Adjust the font. */
+	font-size: 26px;
+    font-weight: 500;
 }
