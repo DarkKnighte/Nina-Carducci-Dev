@@ -379,7 +379,6 @@ input[type="submit"] {
 	}
 }
 
-/* @TODO: Minify the CSS. */
 .visually-hidden {
 	color: #000000;
 }
